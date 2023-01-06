@@ -8,6 +8,18 @@ let countJs = 0;
 
 let updateScreen = () =>{
     countNumber.innerHTML = countJs;
+
+    if (countJs === 0){
+        countNumber.style.color = "black"
+    }
+
+    if(countJs < 0){
+        countNumber.style.color = "red";
+    }
+    else if (countJs > 0){
+        countNumber.style.color = "green";
+    }
+
 }
 
 decreaseButton.addEventListener('click', () =>{
@@ -24,4 +36,6 @@ increaseButton.addEventListener('click', () =>{
     countJs++;
     updateScreen();
 })
+
+window.addEventListener("load", updateScreen);
 
