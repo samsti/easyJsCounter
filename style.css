@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: Trebuchet MS;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.main{
+    width: 20rem;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 50px 50px;
+}
+
+#decrease{
+    background-color: white;
+    border: 1px solid black;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+#reset{
+    background-color: white;
+    border: 1px solid black;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+#increase{
+    background-color: white;
+    border: 1px solid black;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+}
